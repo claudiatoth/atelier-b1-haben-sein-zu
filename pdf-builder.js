@@ -77,7 +77,7 @@
             html += fillInBlock('Übung 3 — zu la infinitiv (separabile vs. normale) 🔧', 'verb normal → zu înainte (zu machen); separabil → zu ÎNTRE prefix și verb (auszufüllen).', ex3Data);
         }
         if (typeof ex4Data !== 'undefined') {
-            html += diktatBlock('Übung 4 — Diktat (Hörverstehen, voce Hedda)', 'Atenție la haben vs. sein (ist/sind) și la zu la separabile (auszufüllen, abzuholen).', ex4Data);
+            html += diktatBlock('Übung 4 — Diktat (Hörverstehen)', 'Atenție la haben vs. sein (ist/sind) și la zu la separabile (auszufüllen, abzuholen).', ex4Data);
         }
         if (typeof ex5Data !== 'undefined') {
             html += translateBlock('Übung 5 — Traducere RO → DE', 'Mix: haben + zu (activ) · sein + zu (pasiv) · zu la separabile.', ex5Data);
@@ -168,7 +168,7 @@
         if (typeof ex1Data !== 'undefined') html += solFill('Übung 1 — haben + zu + Infinitiv (obligație activă) 🔵', ex1Data);
         if (typeof ex2Data !== 'undefined') html += solFill('Übung 2 — sein + zu + Infinitiv (pasiv) 🟢', ex2Data);
         if (typeof ex3Data !== 'undefined') html += solFill('Übung 3 — zu la infinitiv (separabile vs. normale) 🔧', ex3Data);
-        if (typeof ex4Data !== 'undefined') html += solDiktat('Übung 4 — Diktat (Hörverstehen, voce Hedda)', ex4Data);
+        if (typeof ex4Data !== 'undefined') html += solDiktat('Übung 4 — Diktat (Hörverstehen)', ex4Data);
         if (typeof ex5Data !== 'undefined') html += solTranslate('Übung 5 — Traducere RO → DE', ex5Data);
         return html;
     }
